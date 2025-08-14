@@ -1,0 +1,21 @@
+span,h1{
+    width: 200px;
+    height: 200px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 10px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+span{
+    /* display: block; */
+    display: inline-block;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    /* visibility: hidden; */
+    display: none;
+}

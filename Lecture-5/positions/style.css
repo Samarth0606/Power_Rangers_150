@@ -1,0 +1,17 @@
+/* h1,p,div{} */
+/* .vohra{
+    border: 2px solid red;
+} */
+
+div{
+    border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#static #middle{
+    position: static;
+    top: 100px;
+    right: 100px;
+}
