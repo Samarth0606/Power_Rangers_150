@@ -1,0 +1,28 @@
+div{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+}
+
+section{
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+
+    /* justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    align-content: center;
+    align-content: flex-start;
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 30px;
+}
