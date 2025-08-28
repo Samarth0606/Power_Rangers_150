@@ -1,0 +1,12 @@
+:root{
+    --kuch-bhi : yellow;
+    --font-size: 60px;
+}
+
+h1 , p{
+    color: var(--kuch-bhi);
+    font-size: var(--font-size);
+}
+div{
+    background-color: var(--kuch-bhi);
+}
